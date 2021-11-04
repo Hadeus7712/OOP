@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FiguresLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:FiguresLibrary.Rhombus.#ctor">
+            <summary>
+            Конструктор класса Rhombus
+            </summary>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.#ctor(FiguresLibrary.Pnt[])">
+            <summary>
+            Конструктор класса Rhombus, присваивающий значения точек и значения сторон ромба
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.IsExist">
+            <summary>
+            Метод проверяющий возможность существования ромба
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.CalcSides">
+            <summary>
+            Метод, вычисляющий стороны ромба
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.S">
+            <summary>
+            Метод, вычисляющий площадь ромба
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.P">
+            <summary>
+            Метод, вычисляющий периметр ромба
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.DoesBelongsToFigure(System.Double,System.Double)">
+            <summary>
+            Метод, выясняющий принадлежность точки ромбу
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.DoesBelongsToBorder(System.Double,System.Double)">
+            <summary>
+            Метод, выясняющий принадлежность точки границе ромба
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.GeronsFurmula(System.Double,System.Double,System.Double)">
+            <summary>
+            Метод, осуществляющий вычисление площади треугольника формулой Герона
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="c"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
