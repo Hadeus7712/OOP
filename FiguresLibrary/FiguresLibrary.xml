@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FiguresLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:FiguresLibrary.Rhombus.#ctor">
+            <summary>
+            Contructor of Rhombus
+            </summary>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.#ctor(FiguresLibrary.Point[])">
+            <summary>
+            Contructor of Rhombus class, asign points and sides of rhombus
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.IsExist">
+            <summary>
+            Method that verify that rhombus exists
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.CalcSides">
+            <summary>
+            method that calculate sideos of rhombus
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.Square">
+            <summary>
+            method that calculate square of the rhombus
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.Perimeter">
+            <summary>
+            method that calculate perimeter of the rhombus
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.DoesBelongsToFigure(System.Double,System.Double)">
+            <summary>
+            method that verify dot IS in the rhombus or not
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.DoesBelongsToBorder(System.Double,System.Double)">
+            <summary>
+            does point belongs to side of rhombus
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Rhombus.GeronsFurmula(System.Double,System.Double,System.Double)">
+            <summary>
+            calculate square of triangle via Geron's method
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="c"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
