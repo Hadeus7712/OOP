@@ -64,7 +64,7 @@ namespace FiguresLibraryTests
             pnts[2] = new Point(0, 4);
             pnts[3] = new Point(1, 2);
             Rhombus testRhomb = new Rhombus(pnts);
-            Assert.IsTrue(testRhomb.IsBelongsToFigure(0,2));
+            Assert.IsTrue(testRhomb.DoesBelongsToFigure(0,2));
         }
 
         [TestMethod]
@@ -76,7 +76,7 @@ namespace FiguresLibraryTests
             pnts[2] = new Point(2, 0);
             pnts[3] = new Point(0, -2);
             Rhombus testRhomb = new Rhombus(pnts);
-            Assert.IsTrue(testRhomb.IsBelongsToBorder(1, 1));
+            Assert.IsTrue(testRhomb.DoesBelongsToBorder(1, 1));
         }
     }
 }
